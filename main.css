@@ -1,0 +1,39 @@
+@font-face {
+	font-family: FluxischElse;
+	src: url(./fonts/FluxischElse-Regular.otf); 
+}
+
+@font-face {
+	font-family: Muyao;
+	src: url(./fonts/Muyao-Softbrush-2.ttf); 
+}
+
+h1 {
+	font-family: FluxischElse;
+	font-size: 20px;
+}
+
+body {
+	font-family: FluxischElse;
+	padding: 10%;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.info-eng, .info-chi {
+	margin: auto;
+}
+
+.info-eng {
+	font-family: FluxischElse;
+	text-align: left;
+}
+
+.info-chi {
+	font-family: Muyao;
+	text-align: right;
+}
