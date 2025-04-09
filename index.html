@@ -3,7 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+
+        <title>Plot</title>
+        <script type="text/javascript">
+            message = " Someone at Plot loves you! ";
+            function step() {
+                message = message.substr(1) + message.substr(0,1);
+                document.title = message.substr(0,35);
+            }
+        </script>
+
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,23 +25,33 @@
 
     <script async type='text/javascript' src='https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TvXDaN'></script>
 
-    <body>
+    <body onload="setInterval(step, 200)">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
+        <div class="menu-wrapper x">
+            <div class="menu-item y">
+                <p class="menu-text">&nbsp;&nbsp;&nbsp;INFO@PLOT.PLACE<br>
+                    &nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/plooooooot/" style="text-decoration: none; color:white;">@PLOOOOOOT</a><br><br><br></p>
+            </div>
+            <!-- <div class="menu-item">
+                instagram: <a href="https://www.instagram.com/plooooooot/">@plooooooot</a>
+            </div> -->
+        </div>
+
         <div class="info">
             <div class="info-eng">
-                <h1>p l o t</h1>
+                <h1 style="padding-bottom: 10px;">p l o t</h1>
                 <p>spatial aesthetics<br>
-                through books, objects, and events</p>
+                store, studio, salon</p>
                 <p>937 sun mun way<br>
                 chinatown los angeles</p>
             </div>
             <div class="info-chi">
-                <h1 style="font-family: Yozai;">田</h1>
+                <h1 style="font-family: Yozai; font-size: 24px; padding-bottom: 4px;">田</h1>
                 <p>空间美学<br>
-                书店、 艺术品、 活动</p>
+                书店、 工作室、 沙龙</p>
                 <p>937 sun mun way<br>
                 唐人街 洛杉矶</p>
             </div>
