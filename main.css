@@ -1,12 +1,40 @@
 @font-face {
 	font-family: FluxischElse;
 	src: url(./fonts/FluxischElse-Regular.otf); 
+	font-weight: regular;
+}
+
+
+@font-face {
+	font-family: FluxischElse;
+	src: url(./fonts/FluxischElse-Bold.otf); 
+	font-weight: bold;
 }
 
 @font-face {
-	font-family: Muyao;
-	src: url(./fonts/Muyao-Softbrush-2.ttf); 
+	font-family: FluxischElse;
+	src: url(./fonts/FluxischElse-Light.otf); 
+	font-weight: light;
 }
+
+@font-face {
+	font-family: Yozai;
+	src: url(./fonts/Yozai-Regular.ttf); 
+	font-weight: regular;
+}
+
+@font-face {
+	font-family: Yozai;
+	src: url(./fonts/Yozai-Light.ttf); 
+	font-weight: light;
+}
+
+@font-face {
+	font-family: Yozai;
+	src: url(./fonts/Yozai-Medium.ttf); 
+	font-weight: medium;
+}
+
 
 h1 {
 	font-family: FluxischElse;
@@ -29,11 +57,21 @@ body {
 }
 
 .info-eng {
-	font-family: FluxischElse;
 	text-align: left;
 }
 
 .info-chi {
-	font-family: Muyao;
+	font-family: Yozai;
 	text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .info {
+    display: block;
+  }
+
+  .info-chi {
+  	padding-top: 6%;
+  	text-align: left;
+  }
 }
